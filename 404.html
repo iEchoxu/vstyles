@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.38">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><link rel="icon" sizes="any" mask="" href="/favicon.svg"><link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#0a59f7"><meta name="theme-color" content="#0a59f7"><meta name="msapplication-TileColor" content="#0a59f7"><title>MyNote</title><meta name="description" content="My Note balabala...">
+    <link rel="modulepreload" href="/vstyles/assets/app.5266a031.js"><link rel="modulepreload" href="/vstyles/assets/404.html.9d9f8296.js"><link rel="modulepreload" href="/vstyles/assets/404.html.9f3cd693.js">
+    <link rel="stylesheet" href="/vstyles/assets/style.bf746630.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>看起来我们进入了错误的链接</blockquote><a href="/vstyles/" class="">返回首页</a></div></div><!----><!----><!--]--></div>
+    <script type="module" src="/vstyles/assets/app.5266a031.js" defer></script>
+  </body>
+</html>
